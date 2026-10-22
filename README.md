@@ -60,12 +60,18 @@ redimensionamento.
 
 ## 🏗️ Arquitetura do laboratório
 
-O ambiente utiliza uma instância Amazon EC2 com
-Apache HTTP Server, integrada a recursos de rede,
-armazenamento e monitoramento da AWS.
+O diagrama abaixo apresenta uma visão simplificada
+da infraestrutura utilizada no laboratório.
 
-O diagrama de arquitetura será incluído em uma
-próxima atualização.
+![Arquitetura AWS EC2 com Apache, EBS e CloudWatch](assets/arquitetura.png)
+
+**Fluxo:** o navegador envia uma requisição HTTP
+pela porta 80 para a instância Amazon EC2.
+O Security Group controla a permissão de entrada,
+o Amazon EBS fornece armazenamento e o CloudWatch
+disponibiliza métricas de monitoramento.
+
+> Diagrama ilustrativo e simplificado do laboratório.
 
 ---
 

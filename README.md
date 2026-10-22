@@ -1,7 +1,6 @@
+![Banner Amazon EC2 Apache Web Server](assets/banner.png)
 
 # ☁️ Amazon EC2 | Apache Web Server Lab
-
-**Da infraestrutura ao primeiro servidor web na nuvem.**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
 ![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?logo=amazonec2&logoColor=white)
